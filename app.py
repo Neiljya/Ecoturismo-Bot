@@ -28,22 +28,33 @@ print("Bot is running")
 
 @app.route('/')
 def home():
+    print('render')
     return render_template('index.html')
 
 @app.route('/predict', methods=['POST'])
 def predict():
 
     # get string inputs from browser and converts to numerical values
+
+    print('a')
     message = [str(x) for x in request.form.values()]
     print(message)
+
+    print("predicting class..")
     ints = predict_class(message[0].lower())
+
+    print("prediction ready")
+    
     res = get_response(ints, intents)
+
+    print("response ready")
 
     return render_template('index.html', prediction_text=res["name"], image=res["img"], description=res['dsc'],tag1=res["tag1"], tag2=res["tag2"])
 
 def predict_class(inp):
     bag = bag_of_words(inp)
     res = model.predict(np.array([bag]))[0]
+    print(res)
     error_threshold = 0.25
     results = [[i, r] for i, r in enumerate(res) if r > error_threshold]
 
