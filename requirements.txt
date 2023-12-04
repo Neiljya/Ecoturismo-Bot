@@ -1,5 +1,5 @@
 gunicorn
-numpy
-nltk
-tensorflow
-flask
+numpy==1.19.5
+nltk==3.8.1
+tensorflow==2.3.0
+flask==2.2.2
