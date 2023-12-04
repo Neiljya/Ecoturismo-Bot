@@ -1,4 +1,5 @@
 gunicorn
+gevent
 numpy==1.19.5
 nltk==3.8.1
 tensorflow==2.3.0
