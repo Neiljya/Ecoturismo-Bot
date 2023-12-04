@@ -3,4 +3,6 @@ numpy
 nltk
 tensorflow
 flask
-
+random
+pickle
+json
