@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+
+form {
+text-align: center;
+}
+
+body{
+ background-color: #eaeff1;
+ font-family: "Raleway", sans-serif;
+}
+
+textarea{
+    -webkit-border-radius: 5px;
+    -moz-border-readius: 5px;
+    border-radius: 5px;
+}
+
+.sub {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+
+    font-weight: 600;
+    color: solid black;
+    background-color: #FFFFFF;
+
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+.sub:hover{
+    background-color: #CCC;
+    color: solid white;
+}
+
+#header {
+text-align: center;
+color: #444444;
+background: #FFFFFF;
+text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+color: #444444;
+background: #eaeff1;
+padding-bottom: 50px
+}
+
+#logo {
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 25%;
+padding-bottom: -10px;
+
+}
+
+#output {
+color: #FFFFFF;
+background: #FFFFFF;
+text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+color: #FFFFFF;
+background: #FFFFFF;
+text-align: center;
+}
+
+#enter{
+border: 5px double #000000;
+border-radius: 18px;
+}
+
+#visual{
+
+width: 100%;
+border-radius: 12px;
+height: 214px;
+object-fit: scale;
+
+
+
+}
+
+# container{
+    max-width: 300px;
+
+    /*Centering the container in the middle of horizontal axis*/
+    margin: 0 auto;
+
+    /*Create empty space 20% of view height*/
+    margin-top: 20vh;
+
+
+}
+
+.card{
+    margin: auto;
+    background-color: white;
+    border: 1px solid #bacdd8;
+    padding: 8px;
+    border-radius: 12px;
+    width: 20%;
+
+}
+
+
+
+/* Styling the tag */
+
+.tag {
+    padding: 4px 8px;
+    border: 1px solid #e5eaed;
+
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #788697;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+    align: center;
+}
+
+.description {
+    font-size: 14px;
+    color: #7f8c9b;
+    line-height: 150%;
+
+    --max-lines: 5;
+    --line-height: 1.4;
+
+
+    max-height: calc(var(--max-lines) * 1em * var(--line-height));
+    line-height: var(--line-height);
+
+    overflow: hidden;
+    position: relative;
+
+}
+
+.description::before{
+    content: "";
+    position: absolute;
+    height: calc(1em * var(--line-height));
+    width: 100%;
+    bottom: 0;
+    pointer-events: none;
+    background: linear-gradient(to bottom, transparent, white);
+}
+
+.read_more {
+    appearance: none;
+    border: 1px solid #eaeff1;
+    padding: .5em;
+    border-radius: .25em;
+    cursor: pointer;
+    margin-top: 1rem;
+    vertical-align: middle;
+}
+
+.card_details{
+    padding: 16px 8px 8px 8px;
+}
+
+
+.read_more:hover{
+    background-color: #CCC;
+}
+
+.read_more::before {
+    content: "Read More";
+}
+
+.read_more:checked::before {
+    content:"Collapse";
+}
+
+.description:has(+ .read_more:checked){
+    max-height: none;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    background: crimson;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main a{
+    font-size: 30px; font-weight: 600; color: white;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: white;
+    font-size: 18;
+    font-weight: bold;
+    margin-right: 25px;
+
+}
+

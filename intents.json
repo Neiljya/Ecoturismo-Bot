@@ -1,0 +1,104 @@
+{"intents": [
+  {"tag":  "Forest",
+  "patterns":  ["forest", "trees", "bush", "green", "woods", "secluded", "isolated", "peaceful", "jungle", "birds","lodge","mid-budget","inexpensive","waterfall","hike","trail","wildlife","wild","birds", "forested","canopy","mysterious","dense","mystical","enchanting","lush","verdant","green","environment","eco","biodiverse","mossy","peaceful","teeming","serene","fragrant","humid"],
+  "responses": [
+    {
+      "name": "Minca",
+      "img": "assets/Minca.jpeg",
+      "dsc": "Welcome to Minca, a pristine haven in Colombia revered by eco-travelers worldwide. Nestled in the lush embrace of the Sierra Nevada mountains, this biodiverse gem invites adventurers to explore its rich tapestry of cloud forests, glistening waterfalls, and vibrant wildlife. Discover sustainable adventures, from serene hikes through dense jungles to encounters with exotic bird species and indigenous flora. Embrace eco-friendly accommodations, community-driven initiatives, and immersive cultural experiences that celebrate the harmony between nature and humanity. Unveil the magic of Minca, where every step echoes a commitment to conservation and awe-inspiring eco-tourism.",
+      "tag1": "Forest",
+      "tag2": "Secluded"
+    },
+
+    {"name": "Vereda el Carmen",
+    "img":  "assets/VeC.jpg",
+    "dsc": "Perched within the embrace of Colombia's Sierra Nevada mountains, Vereda el Carmen boasts an ecotourism paradise. Its rugged terrain unfolds into a tapestry of cloud forests, where diverse flora, including orchids and bromeliads, paint a vibrant landscape. The trails wind past gurgling streams and reveal cascading waterfalls, creating serene natural retreats. This biodiverse sanctuary hosts a rich array of wildlife, from colorful butterflies to rare bird species like toucans and parrots, offering avid birdwatchers an unparalleled experience. The surroundings are peppered with traditional farms cultivating organic produce, showcasing a sustainable way of life that harmonizes with the pristine natural environment. Vereda el Carmen captivates with its untouched beauty, making it a haven for ecotourists seeking an immersive and responsible exploration of Colombia's unique ecosystems",
+    "tag1": "Forest",
+    "tag2": "Waterfalls"
+    },
+
+  {
+    "name": "Bioparque Los Ocarros",
+    "img": "assets/Bioparque.jpg",
+    "dsc": "Bioparque Los Ocarros, located in Colombia, is a wildlife sanctuary that immerses visitors in the vibrant beauty of nature. This park offers an extraordinary journey through diverse ecosystems, where lush forests meet winding rivers. Encounter captivating wildlife, from playful otters to majestic jaguars, in habitats meticulously designed to replicate their natural environments. Stroll along serene trails, observe colorful bird species, and learn about conservation efforts dedicated to preserving Colombia's rich biodiversity. With interactive exhibits, educational presentations, and a commitment to environmental stewardship, Bioparque Los Ocarros is a haven for both nature enthusiasts and those passionate about wildlife conservation.",
+    "tag1": "Forest",
+    "tag2": "Rivers"
+  }]},
+  {"tag":  "Beach",
+  "patterns":  ["water", "sun", "beach", "warm", "hot", "swimming", "summer", "wave","ocean","dive","tan","sand","fish","marine","coral","boat","surf","sunny","place","tropical","sandy","relaxing","idyllic","breeze"],
+  "responses": [
+    {
+      "name": "Santa Marta",
+      "img": "assets/SM.jpg",
+      "dsc": "Santa Marta, Colombia, is a coastal gem where nature and adventure collide. Nestled between the Caribbean Sea and the Sierra Nevada mountains, it's a haven for sun-seekers and explorers alike. Sink your toes into golden sands along stunning beaches and dive into the crystal-clear waters teeming with colorful marine life. But wait, there's more! Explore the nearby Tayrona National Park, a biodiverse wonderland where dense jungles meet the sea, harboring exotic wildlife and ancient indigenous ruins. Enjoy vibrant local culture, fresh seafood, and a range of outdoor activities from hiking to snorkeling. Santa Marta is the perfect blend of beach bliss and nature's playground, beckoning travelers to uncover its coastal charm and natural treasures.",
+      "tag1": "Beach",
+      "tag2": "Ocean"
+    },
+    {
+      "name": "Cabo de la Vela",
+      "img": "assets/Cbvela.jpg",
+      "dsc": "Cabo de la Vela, situated in Colombia's Guajira Peninsula, is an off-the-beaten-path paradise blending raw natural beauty with cultural richness. This remote coastal gem offers pristine beaches kissed by turquoise waters and winds that lure in kitesurfers and adventurers seeking thrills. Here, the arid desert landscape meets the Caribbean Sea, creating a unique setting framed by golden dunes and dramatic cliffs. Embrace the Wayuu indigenous culture, known for their vibrant traditions and artisan crafts. Witness breathtaking sunsets painting the sky in hues of orange and pink over the vast horizon. Cabo de la Vela promises an unforgettable adventure, where the serene beauty of the desert meeting the sea invites travelers to immerse themselves in a truly authentic and captivating experience.",
+      "tag1": "Beach",
+      "tag2": "Desert"
+    },
+    {
+      "name": "Palomino",
+      "img": "Palomino.jpg",
+      "dsc": "Palomino, nestled on Colombia's Caribbean coast, is a hidden gem offering a blend of tranquility and adventure. This coastal paradise boasts pristine beaches kissed by turquoise waters and lined with swaying palms. It's a surfer's haven, inviting wave-riders to catch the perfect break. Palomino's relaxed vibe is complemented by the Sierra Nevada Mountains as a stunning backdrop, creating a picturesque setting for hiking, tubing down lazy rivers, or simply unwinding in hammocks on the beach. Dive into the local culture by sampling delicious coastal cuisine and engaging with the warm-hearted locals. Palomino is the ideal escape for those seeking a laid-back beach retreat infused with natural beauty and a touch of Colombian charm.",
+      "tag1": "Beach",
+      "tag2": "Serene"
+    }]
+  },
+
+  {"tag":  "Cultural",
+  "patterns":  ["culture", "history", "architecture", "building", "city", "people", "population", "crowd", "museum", "castle","ancient","significant","bustle","busy","cosompolitan","dynamic","lively","authentic","heritage","food","cuisine","modern","art"],
+  "responses": [{
+    "name": "Historic Centre of Santa Cruz de Mompox",
+    "img": "assets/Historic.jpg",
+    "dsc":"The Historic Centre of Santa Cruz de Mompox, a UNESCO World Heritage Site in Colombia, is a living treasure trove of colonial charm and cultural heritage. This enchanting town, nestled along the banks of the Magdalena River, invites visitors on a journey through time. Cobblestone streets wind past colorful colonial houses adorned with intricately carved wooden balconies, reflecting its rich Spanish colonial history. The town's churches, such as the Santa Bárbara Cathedral, stand as architectural marvels, showcasing exquisite craftsmanship from centuries past. As you wander through this atmospheric town, you'll encounter local artisans crafting filigree jewelry and traditional crafts, preserving centuries-old traditions. Imbued with a tranquil ambiance, Santa Cruz de Mompox offers a glimpse into Colombia's storied past, inviting travelers to delve into its history, art, and captivating allure",
+    "tag1": "Cultural",
+    "tag2": "Town"
+  },
+    {
+      "name": "Bogota",
+      "img": "assets/Bogota.jpg",
+      "dsc": "Bogota, Colombia's vibrant capital, is a bustling metropolis nestled in the Andes mountains, offering a rich tapestry of culture, history, and modernity. The city's beating heart lies in La Candelaria, its historic center adorned with colonial architecture, colorful streets, and bustling markets. Explore the Plaza Bolivar, the city's focal point, surrounded by iconic landmarks like the neoclassical Capitolio Nacional and the stunning Cathedral Primada. Art aficionados will find solace in the Gold Museum, housing an awe-inspiring collection of pre-Columbian gold artifacts. Amidst the urban buzz, Bogota nurtures a thriving cultural scene, boasting theaters, galleries, and an eclectic culinary landscape. From its lively street art to the panoramic views from Monserrate, Bogota weaves together tradition and modernity, inviting visitors to experience the dynamic spirit of Colombia's capital city",
+      "tag1": "Cultural",
+      "tag2": "Capital"
+    },
+
+    {
+      "name": "Cartagena",
+      "img": "assets/Cartagena.jpg",
+      "dsc": "Cartagena, a jewel on Colombia's Caribbean coast, is a captivating blend of history, culture, and vibrant energy. Enclosed within its well-preserved colonial walls, the city's historic center, known as the Old Town or Ciudad Amurallada, transports visitors to a bygone era with its cobbled streets, colorful colonial buildings adorned with bougainvillea, and charming plazas brimming with life. The city's rich heritage is evident in its well-preserved fortresses, such as Castillo San Felipe de Barajas, guarding the city against historical invasions. Beyond its historical allure, Cartagena pulsates with a lively atmosphere. The rhythmic beats of salsa and the aroma of Caribbean cuisine drift through the air as locals and visitors alike enjoy the city's vibrant nightlife and bustling markets. Cartagena is not just about the past; it's a city where the past and present harmoniously coexist. Its fusion of history, art, gastronomy, and vibrant culture make it an enchanting destination that beckons travelers to immerse themselves in its captivating beauty and lively spirit.",
+      "tag1": "Cultural",
+      "tag2": "Coastal"
+    }]
+
+  },
+  {"tag":  "Mountain",
+  "patterns":  ["mountain","hills","off-grid","offline","high altitude","hiking","rock","altitude","majestic","tower","rugged","alpine","formidable","picturesque","remote","breathtaking","grand","giant","spectacular","cliff","expansive","large","snow","cold","dry"],
+  "responses": [{
+    "name": "Chingaza National Park",
+    "img": "assets/Chingaza.jpg",
+    "dsc": "Chingaza National Natural Park, nestled in the Eastern Ranges of the Colombian Andes, is a nature enthusiast's dream. This biodiverse wonderland boasts high-altitude ecosystems, pristine lakes, and cloud forests that harbor a rich tapestry of wildlife, including the iconic Andean spectacled bear and a myriad of bird species. Trek through ancient paths surrounded by frailejones, unique plants that blanket the paramo landscapes. Explore crystalline lagoons like Laguna de Chingaza, offering breathtaking vistas and a serene ambiance. Chingaza's conservation efforts and captivating natural beauty beckon adventurers seeking an authentic and immersive experience in Colombia's wild heart.",
+    "tag1": "Mountains",
+    "tag2": "Biodiversity"
+  },
+
+    {
+      "name": "El Cocuy National Park",
+      "img": "assets/ecnp.png",
+      "dsc": "El Cocuy National Park, situated in the Colombian Andes, boasts a dramatic landscape of soaring peaks, glaciers, and alpine valleys. This rugged terrain is a mecca for adventure seekers and nature lovers. Trek through diverse ecosystems, from high-altitude paramos to glacial lakes that shimmer like jewels amidst the rocky terrain. Encounter unique wildlife like the majestic Andean condor and spectacled bear while navigating trails that reveal breathtaking vistas at every turn. For mountaineering enthusiasts, the park offers challenging ascents like the towering Ritacuba Blanco, inviting climbers to conquer its snowy peaks. El Cocuy National Park is an untamed wilderness, where the untainted beauty of Colombia's highlands awaits those willing to explore its awe-inspiring and challenging terrain.",
+      "tag1": "Mountains",
+      "tag2": "Trails"
+    },
+
+    {"name":  "Cerro de Las Tres Cruces",
+    "img":  "assets/tc.jpg",
+    "dsc":  "Cerro de Las Tres Cruces, translating to Hill of the Three Crosses, crowns Cali's landscape with a trio of iconic crosses visible from all corners of the city. These crosses aren't just landmarks; they hold cultural and religious significance, representing faith, hope, and community for Cali's residents. Perched atop this hill, each cross stands tall, overlooking the cityscape, serving as a beacon of spiritual contemplation and a symbol of resilience. Locals and visitors ascend the hill not just for its panoramic views but also to pay homage to this revered site. The crosses hold a timeless allure, drawing pilgrims and those seeking solace to the summit. They evoke a sense of tranquility amid Cali's bustling energy, inviting individuals to reflect, find peace, or simply marvel at the vista they overlook. Cerro de Las Tres Cruces' crosses transcend their physical presence, embodying a cultural and spiritual significance that resonates deeply with the city's fabric. They stand as more than just landmarks; they represent a sense of faith, unity, and reverence that echoes through the heart of Cali.",
+    "tag1": "Cultural",
+    "tag2": "Mountain"}]
+  }]}
+
+

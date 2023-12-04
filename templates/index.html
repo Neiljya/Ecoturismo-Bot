@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Make it compatible to mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href= "{{ url_for('static',filename='styles/style.css') }}">
+  <title>Ecoturismo Suggestion Bot</title>
+
+</head>
+
+<body>
+    <nav class="navbar">
+            <div class="navdiv">
+                <div class="main"><a href="#">Chat Bot</a></div>
+                <ul>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+    </nav>
+ <div class="login">
+     <img  id="logo" src="{{ url_for('static',filename='assets/logo.png') }}">
+	<h1 id="header" >Ecoturismo Suggestion Bot</h1>
+
+     <!-- Action is where the data is sent. In our case, predict page.
+     If action is omitted, it assumed to be the current page -->
+    <form action="{{ url_for('predict')}}"method="post">
+        <textarea rows="10" cols="30" name="enter" placeholder="Describe your ideal ecotourism location" required="required"></textarea>
+        <p>
+
+        <button type="submit" class="sub">Get suggested locations!</button></p>
+    </form>
+
+   <br>
+   <br>
+
+ </div>
+
+
+
+     <div id="container">
+
+         <div class="card">
+             <img id="visual" src='{{ url_for("static", filename=image ) }}'/>
+
+             <div class="card_details">
+
+                 <span class="tag">{{ tag1 }}</span>
+                 <span class="tag">{{ tag2 }}</span>
+
+                 <div class="name">{{ prediction_text }}</div>
+                 <p class="description">{{ description }} </p>
+
+                 <input class="read_more" type="checkbox">
+             </div>
+
+
+         </div>
+
+
+     </div>
+
+
+</body>
+</html>
