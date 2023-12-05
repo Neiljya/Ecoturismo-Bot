@@ -52,9 +52,13 @@ def predict():
     return render_template('index.html', prediction_text=res["name"], image=res["img"], description=res['dsc'],tag1=res["tag1"], tag2=res["tag2"])
 
 def predict_class(inp):
+    print("start predict")
+    
     bag = bag_of_words(inp)
     res = model.predict(np.array([bag]))[0]
-    print(res)
+    
+    print("got res")
+    
     error_threshold = 0.25
     results = [[i, r] for i, r in enumerate(res) if r > error_threshold]
 
